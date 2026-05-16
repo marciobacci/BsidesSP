@@ -1,0 +1,4 @@
+aws cloudtrail validate-logs \
+  --trail-arn arn:aws:cloudtrail:us-east-1:635858937681:trail/trail-t0mjj8g9 \
+  --start-time 2026-05-12T18:00:00Z \
+  --end-time 2026-05-13T23:59:00Z  --verbose
